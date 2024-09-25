@@ -34,6 +34,10 @@ public class Persoana {
         this.adresa = adresa;
     }
 
+    public Persoana() {
+
+    }
+
     public void infoPersoana(){
         System.out.println("Numele persoanei este: "+ nume);
         System.out.println("Prenumele persoanei este: "+ prenume);

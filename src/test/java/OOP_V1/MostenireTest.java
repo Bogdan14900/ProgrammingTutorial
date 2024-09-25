@@ -21,17 +21,28 @@ public class MostenireTest {
         angajat.marire("Tester");
         angajat.marire(10 ,"Senior");
 
+        angajat.ajungeLaTimpLaBirou();
+        angajat.respectaConduita();
+        angajat.nuAreAbsente();
+        angajat.munceste();
+
         System.out.println();
 
-        Sportiv sportiv = new Sportiv("Marcel","Ivan","58","Masculin","Bucuresti","Box",
-                false,10,true,6);
-        sportiv.infoSportiv();
-
-        System.out.println();
+//        Sportiv sportiv = new Sportiv("Marcel","Ivan","58","Masculin","Bucuresti","Box",
+//                false,10,true,6);
+//        sportiv.infoSportiv();
+//
+//        System.out.println();
 
         Student student = new Student("Dragos","Ion","24","Masculin","Constanta","Drept",
                 "Civil",4,false,true);
         student.infoStudent();
+
+        student.saNuAibaRestante();
+        student.mergeLaCursuri();
+        student.trebuieSaStudieze();
+        student.saStieSaCopieze();
+
 
 
     }
